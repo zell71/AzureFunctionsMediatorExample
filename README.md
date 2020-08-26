@@ -14,7 +14,7 @@ Example taken from https://github.com/alexjamesbrown/Mediatr.AzureFunctions whic
 
 ```json
 {
-    "ExId": "123"
+    "ExId": "123",
     "Title": "MyTitle",
     "Description": "MyDescription"
 }
