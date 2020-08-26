@@ -9,9 +9,9 @@ namespace FunctionsAppSample.Function.Features.Packages
     {
         public class Command : IRequest
         {
-            public Command(string ExId)
+            public Command(string exId)
             {
-                ExId = ExId;
+                ExId = exId;
             }
 
             public string ExId { get; set; }
