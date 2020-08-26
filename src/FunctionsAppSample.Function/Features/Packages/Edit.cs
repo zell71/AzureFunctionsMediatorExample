@@ -29,7 +29,7 @@ namespace FunctionsAppSample.Function.Features.Packages
             public CommandValidator()
             {
                 RuleFor(x => x.Package).NotNull();
-                RuleFor(x => x.ExId).NotEmpty();
+                RuleFor(x => x.ExId).NotNull().NotEmpty();
             }
         }
 
