@@ -8,7 +8,7 @@ Example taken from the basic walkthrough from Microsofts documentation here http
 
 ## MediatR
 
-Example taken from https://github.com/alexjamesbrown/Mediatr.AzureFunctions which utilises Mediatr and Fluent Validation.
+Example taken from https://github.com/alexjamesbrown/Mediatr.AzureFunctions which utilises [MediatR](https://github.com/jbogard/MediatR) and [Fluent Validation](https://github.com/FluentValidation/FluentValidation).
 
 `GET http://localhost:7071/api/AddPackageFunction`
 
