@@ -1,18 +1,21 @@
 # Azure Functions Mediator Example
 
-2 examples:
-https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-your-first-function-visual-studio
+## HttpExample
 
-GET: http://localhost:7071/api/HttpExample
+Example taken from the basic walkthrough from Microsofts documentation here https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-your-first-function-visual-studio
 
+`GET http://localhost:7071/api/HttpExample`
 
-https://github.com/alexjamesbrown/Mediatr.AzureFunctions
+## MediatR
 
-GET: http://localhost:7071/api/AddPackageFunction
+Example taken from https://github.com/alexjamesbrown/Mediatr.AzureFunctions which utilises Mediatr and Fluent Validation.
 
-Body: 
+`GET http://localhost:7071/api/AddPackageFunction`
+
+```json
 {
-    "ExId": "123
+    "ExId": "123"
     "Title": "MyTitle",
     "Description": "MyDescription"
 }
+```
